@@ -1,3 +1,9 @@
+## 2.0.0
+
+* Update dart sdk to use 3.0.0+
+* Update flutter_avif_platform_interface to 2.0.0
+* Update flutter_lints to 2.0.2
+
 ## 1.4.0
 
 * Add missing constructor arguments to match flutter image api

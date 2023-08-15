@@ -1,3 +1,13 @@
+## 2.0.0
+
+* Update dart sdk to use 3.0.0+
+* Update ffi to 2.1.0
+* Update flutter_rust_bridge to 1.80.1
+* Update meta to 1.9.1
+* Update uuid to 3.0.7
+* Update flutter_lints to 2.0.2
+* Update ffigen to 9.0.1
+
 ## 1.4.0
 
 * Add missing constructor arguments to match flutter image api

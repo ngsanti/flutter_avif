@@ -1,16 +1,21 @@
 name: flutter_avif_linux
 description: Linux implementation for flutter_avif.
-version: 1.4.0
-repository: https://github.com/yekeskin/flutter_avif/tree/main/flutter_avif_linux
+version: 2.0.0
+repository: https://github.com/ngsanti/flutter_avif/tree/main/flutter_avif_linux
+publish_to: none
 
 environment:
-  sdk: ">=2.16.1 <3.0.0"
+  sdk: ">=3.0.0 <4.0.0"
   flutter: ">=2.5.0"
 
 dependencies:
   flutter:
     sdk: flutter
-  flutter_avif_platform_interface: ^1.4.0
+  flutter_avif_platform_interface:
+    git:
+      url: git@github.com:ngsanti/flutter_avif.git
+      path: flutter_avif_platform_interface
+      ref: main # branch name
 
 dev_dependencies:
   flutter_test:

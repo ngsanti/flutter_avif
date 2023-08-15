@@ -637,23 +637,23 @@ class FlutterAvifWire implements FlutterRustBridgeWireBase {
       _free_WireSyncReturnPtr.asFunction<void Function(WireSyncReturn)>();
 }
 
-class _Dart_Handle extends ffi.Opaque {}
+base class _Dart_Handle extends ffi.Opaque {}
 
-class wire_uint_8_list extends ffi.Struct {
+base class wire_uint_8_list extends ffi.Struct {
   external ffi.Pointer<ffi.Uint8> ptr;
 
   @ffi.Int32()
   external int len;
 }
 
-class wire_EncodeFrame extends ffi.Struct {
+base class wire_EncodeFrame extends ffi.Struct {
   external ffi.Pointer<wire_uint_8_list> data;
 
   @ffi.Uint64()
   external int duration_in_timescale;
 }
 
-class wire_list_encode_frame extends ffi.Struct {
+base class wire_list_encode_frame extends ffi.Struct {
   external ffi.Pointer<wire_EncodeFrame> ptr;
 
   @ffi.Int32()
